@@ -1,3 +1,6 @@
 [submodule "Software/Cryptoauthlib"]
 	path = Software/Cryptoauthlib
 	url = https://github.com/Irdroid/cryptoauthlib.git
+[submodule "Software/EClet"]
+	path = Software/EClet
+	url = https://github.com/RiddleAndCode/EClet
