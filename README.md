@@ -1,3 +1,4 @@
+```javascript
 import copyCodeBlock from '@pickra/copy-code-block';
 # authKi - Open Source Crypto Authentication USB Dongle
 <p align="center" width="40%">
