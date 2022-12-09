@@ -25,13 +25,6 @@ USB 2.0 Interface to the host system with built-in drivers for GNU Linux, availa
 - Ephemeral key generation and key agreement in SRAM
 - Small message encryption with keys entirely protected
 
-## Secure Boot Support:
-
-- Full ECDSA code signature validation, optional stored digest/signature
-- Optional communication key disablement prior to secure boot
-- Encryption/Authentication for messages to prevent on-board attacks
-- Internal High-Quality NIST SP 800-90A/B/C Random Number Generator (RNG)
-
 ## Software Support:
 
 - Microchip’s Cryptoauthlib ( provides API and examples for interfacing with the authKi
