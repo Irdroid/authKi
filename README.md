@@ -103,3 +103,52 @@ ssh-keygen -D /usr/lib/libcryptoauth.so
 ### 8. Use the authKi
 The above command will print your public ECDSA key in the console, the key is suitable for usage in a remote server authorized_keys file or with Github
 After putting the public key into a remote system , you can ssh into it, while your authKi is inserted in your computer.
+
+### 9 Configuring authKi for use with the Eclet
+
+1. Compile and install the Ecltet, the source is located in /Software/Eclet
+
+#### random
+```bash
+eclet random
+62F95589AC76855A8F9204C9C6B8B85F06E6477D17C3888266AEE8E1CBD65319
+```
+#### serial-num
+```bash
+eclet serial-num
+0123XXXXXXXXXXXXEE
+```
+X's indicate the unique serial number.
+
+#### get-pub
+```bash
+eclet get-pub
+04EED1CB629CF87F8BF6419986F990B92EA3DFA14CDAF70EB3E8DA8F9C9504DBC5B040D6480E88F895E9E1D4477970329B060450C80E1816EFED7B0FA49868CAEB
+```
+One can get the public key at any time calling the command get-pub. In case the public key of a specific slot has to be called use the parameter -k.
+
+```bash
+eclet get-pub -k 0
+04EED1CB629CF87F8BF6419986F990B92EA3DFA14CDAF70EB3E8DA8F9C9504DBC5B040D6480E88F895E9E1D4477970329B060450C80E1816EFED7B0FA49868CAEB
+```
+
+#### sign
+```bash
+eclet sign -f ChangeLog
+3BAEB5705D8765B34B389F1768BAC783FCA786AB64A760D10DD133C86E5892A7A790E424C8E1540551C99FBE4F9F531B504A6004F08F3E0D4E42E96BBDE5C179
+```
+
+Performs an ECDSA signature. Data can be specified as a file with the `-f` option or passed via `stdin`. The data will be SHA256 hashed prior to signing. The result is the signature in the format: R + S.
+
+#### verify
+```bash
+eclet verify -f ChangeLog --signature C650D1A30194AD68F60F40C321FB084F6177BEDAC74D0F0C276ED35B00249AC8CF3E96FB7AB14AA48223FBA2E5DD9BCAE232BF963755C42F8FD9BD77FC145D41 --public-key 049B4A517704E16F3C99C6973E29F882EAF840DCD125C725C9552148A74349EB77BECB37AA2DB8056BAF0E236F6DCFEC2C5A9A0F23CEFD8A9DC1F4693718E725D2
+```
+
+Verifies an ECDSA signature using the device. You specify the data (which will be SHA256 hashed), the signature (R+S), and the public key (0x04+X+Y). Returns a `0` exit code on success.
+
+#### offline-verify-sign
+```bash
+eclet offline-verify-sign -f ChangeLog --signature C650D1A30194AD68F60F40C321FB084F6177BEDAC74D0F0C276ED35B00249AC8CF3E96FB7AB14AA48223FBA2E5DD9BCAE232BF963755C42F8FD9BD77FC145D41 --public-key 049B4A517704E16F3C99C6973E29F882EAF840DCD125C725C9552148A74349EB77BECB37AA2DB8056BAF0E236F6DCFEC2C5A9A0F23CEFD8A9DC1F4693718E725D2
+```
+### 10. There are other examples in the cryptoauthlib directory for other functionalities such as AES128 enclode/decode, SHA-256 tests and examples and more. 
