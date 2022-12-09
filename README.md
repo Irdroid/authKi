@@ -1,4 +1,5 @@
 # authKi - Open Source Crypto Authentication USB Dongle
+**Align center:**
 <p align="center" width="80%">
     <img width="33%" src="[https://i.stack.imgur.com/RJj4x.png](https://github.com/Irdroid/authKi/blob/main/Hardware/Pictures/PB170081-1%20(Small).jpg)"> 
 </p>
