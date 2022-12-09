@@ -42,10 +42,11 @@ USB 2.0 Interface to the host system with built-in drivers for GNU Linux, availa
 ## Where to start?
 
 ### 1. Clone this repository: 
-
-Issue git clone --recurse-submodules https://github.com/Irdroid/authKi.git
-This will checkout the repo and all submodules. You can then compile and install the cryptoauthlib library localted in /Software/Cryptoauthlib.
-You can also download a pre-built release package from the "releases" section above.
+```javascript
+git clone --recurse-submodules https://github.com/Irdroid/authKi.git
+```
+This will checkout the repo and all submodules. You can then compile and install the cryptoauthlib library localted in /Software/Cryptoauthlib/
+**You can also download a pre-built release package from the "releases" section above**.
     
 ### 2.  Install OpenSC:
 ```javascript
