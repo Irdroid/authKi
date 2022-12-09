@@ -100,7 +100,7 @@ PKCS11Provider /usr/lib/libcryptoauth.so
 ```javascript
 ssh-keygen -D /usr/lib/libcryptoauth.so
 ```
-### 8. Use the authKi
+### 8. Use the authKi for SSH Authentication / Github GIT+SSH
 The above command will print your public ECDSA key in the console, the key is suitable for usage in a remote server authorized_keys file or with Github
 After putting the public key into a remote system , you can ssh into it, while your authKi is inserted in your computer.
 
