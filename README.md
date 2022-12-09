@@ -1,6 +1,3 @@
-```javascript
-import copyCodeBlock from '@pickra/copy-code-block';
-```
 # authKi - Open Source Crypto Authentication USB Dongle
 <p align="center" width="40%">
     <img width="50%" src="https://github.com/Irdroid/authKi/blob/683cc1a6c868871baae747778073e68e58a7a1d4/Hardware/Pictures/PB170081-1%20(Small).jpg"> 
@@ -49,5 +46,5 @@ USB 2.0 Interface to the host system with built-in drivers for GNU Linux, availa
     - This will checkout the repo and all submodules. You can then compile and install the cryptoauthlib library localted in /Software/Cryptoauthlib.
     - You can also download a pre-built release package from the "releases" section above.
 2. Set udev rules (If you are compiling from source | **You can skip this step if you are installing a prebuilt cryptoauthlib package from the releases section above**), so that the authKi will always get the same i2c interface number as a sysfs entry 
-    - Create a file in /etc/udev/rules.d/11-tiny.rules with the content : copyCodeBlock('ACTION=="add|change", SUBSYSTEM=="i2c-dev", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="c631", SYMLINK+="i2c-20"')
+    - Create a file in /etc/udev/rules.d/11-tiny.rules with the content : ```javascript copyCodeBlock('ACTION=="add|change", SUBSYSTEM=="i2c-dev", ATTRS{idVendor}=="0403", ATTRS{idProduct}=="c631", SYMLINK+="i2c-20"')```
 4. 
