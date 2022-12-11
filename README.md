@@ -96,6 +96,17 @@ Edit /home/your_user/.ssh/config and add:
 ```javascript 
 PKCS11Provider /usr/lib/libcryptoauth.so
 ```
+The above will configure the cryptoauthlib as a PKCS11 Provider for All SSH connections. To configure the use of the library and the authki for specific connection add the following (for example for GitHub authentication in ./ssh/config)
+
+```javascript 
+Host github.com
+ PKCS11Provider /usr/lib/libcryptoauth.so
+ Port 22
+ User youruser
+```
+This way if you have multipl authentication dongles, and/or smartcards you can specify which connection will use the relevant authentication key/smartcard
+
+
 ### 7. Export the ECDSA Public key from the authKi
 ```javascript
 ssh-keygen -D /usr/lib/libcryptoauth.so
