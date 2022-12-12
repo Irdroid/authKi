@@ -1,3 +1,4 @@
+remote_theme: pages-themes/hacker
 # Open Source Crypto Authentication USB Dongle
 <p align="center" width="40%">
     <img width="50%" src="https://raw.githubusercontent.com/Irdroid/authKi/683cc1a6c868871baae747778073e68e58a7a1d4/Hardware/Pictures/PB170081-1%20(Small).jpg"> 
