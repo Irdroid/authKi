@@ -166,7 +166,5 @@ eclet offline-verify-sign -f ChangeLog --signature C650D1A30194AD68F60F40C321FB0
 
 <p align="center" width="40%">
 authKi on GitHub
-</p>
 <p align="center" width="40%">
 <a href="https://github.com/irdroid/authKi"><img width="7%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/128px-Octicons-mark-github.svg.png"> 
-</p>
