@@ -164,10 +164,9 @@ eclet offline-verify-sign -f ChangeLog --signature C650D1A30194AD68F60F40C321FB0
 ```
 ### 10. There are other examples in the cryptoauthlib directory for other functionalities such as AES128 enclode/decode, SHA-256 tests and examples and more. 
 
-<div align="center">
-        <br>
-        <a href="https://github.com/irdroid/authKi/">
-                <img src="fork.svg" width="800" height="200" alt="Click to see the source">
-        </a>
-        <br>
-</div>
+<p align="center" width="40%">
+authKi on GitHub
+</p>
+<p align="center" width="40%">
+<a href="https://github.com/irdroid/authKi"><img width="7%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/128px-Octicons-mark-github.svg.png"> 
+</p>
