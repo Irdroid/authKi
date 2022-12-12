@@ -1,6 +1,6 @@
 # Open Source Crypto Authentication USB Dongle
-<p align="center" width="47%">
-    <img width="50%" src="https://raw.githubusercontent.com/Irdroid/authKi/main/Hardware/Pictures/auth_ki_site.png"> 
+<p align="center" width="55%">
+    <img width="55%" src="https://raw.githubusercontent.com/Irdroid/authKi/main/Hardware/Pictures/auth_ki_site.png"> 
 </p>
 
 Irdroid authKi is a Open Source crypto Authentication USB Dongle, with built-in hardware support for Asymmetric Sign, Verify, Key Agreement for ECDSA - Elliptic curve digital signature algorithm, ECDSH - Elliptic Curve Diffie-Hellman and NIST Standard P256 Elliptic Curve Support,  thanks to the built-in Cryptographic Co-Processor with Secure Hardware-Based Key Storage - ATECC608B by Microchip.
