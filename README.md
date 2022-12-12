@@ -167,7 +167,7 @@ eclet offline-verify-sign -f ChangeLog --signature C650D1A30194AD68F60F40C321FB0
 <div align="center">
         <br>
         <a href="https://github.com/irdroid/authKi/fork.svg">
-                <img src="fork.svg" width="800" height="400" alt="Click to see the source">
+                <img src="fork.svg" width="800" height="200" alt="Click to see the source">
         </a>
         <br>
 </div>
