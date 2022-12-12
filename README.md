@@ -163,3 +163,11 @@ Verifies an ECDSA signature using the device. You specify the data (which will b
 eclet offline-verify-sign -f ChangeLog --signature C650D1A30194AD68F60F40C321FB084F6177BEDAC74D0F0C276ED35B00249AC8CF3E96FB7AB14AA48223FBA2E5DD9BCAE232BF963755C42F8FD9BD77FC145D41 --public-key 049B4A517704E16F3C99C6973E29F882EAF840DCD125C725C9552148A74349EB77BECB37AA2DB8056BAF0E236F6DCFEC2C5A9A0F23CEFD8A9DC1F4693718E725D2
 ```
 ### 10. There are other examples in the cryptoauthlib directory for other functionalities such as AES128 enclode/decode, SHA-256 tests and examples and more. 
+
+<div align="center">
+        <br>
+        <a href="https://github.com/irdroid/authKi/fork.svg">
+                <img src="fork.svg" width="800" height="400" alt="Click to see the source">
+        </a>
+        <br>
+</div>
