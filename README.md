@@ -5,7 +5,7 @@
 
 Irdroid authKi is a Open Source crypto Authentication USB Dongle, with built-in hardware support for Asymmetric Sign, Verify, Key Agreement for ECDSA - Elliptic curve digital signature algorithm, ECDH - Elliptic Curve Diffie-Hellman and NIST Standard P256 Elliptic Curve Support,  thanks to the built-in Cryptographic Co-Processor with Secure Hardware-Based Key Storage - ATECC608B by Microchip.
 
-USB 2.0 Interface to the host system with built-in drivers for GNU Linux, available drivers for MAC OS X and MS Windows. The authKi is targeted for use in GNU Linux but drivers for MAC OS X and MS Windows are also available. The device will enumerate on the host system as a I2C sysfs entey, which is then used by the Microchip’s cryptoauthlib for communication with the authKi dongle.
+USB 2.0 Interface (and optional USB-C) to the host system with built-in drivers for GNU Linux. The authKi is targeted for use in GNU Linux, the ATECC608B crypto element inside the authKi can be accessed via libusb (Still work in progress). The device will show-up on the host system as a I2C sysfs entry, which is then used by the Microchip’s cryptoauthlib for communication with the authKi dongle.
 
 ## Hardware support for:
 
@@ -52,6 +52,13 @@ This will checkout the repo and all submodules. You can then compile and install
 ```javascript
 sudo apt install opensc
 ```
+Check if the sysfs /dev/i2c-x entry for the device is created (After you plug the authKi to your system issue dmesg, and see if the /dev/i2c-x is assigned), if not then you may need to issue:
+
+```
+sudo modprobe i2c-dev
+```
+The above will load the kernel module for i2c dev sysfs
+
 ### 4. Set **udev rules** 
 (If you are compiling from source | **You can skip this step if you are installing a prebuilt cryptoauthlib package from the releases section above**), so that the authKi will always get the same i2c interface number as a sysfs entry 
     - Create a file in /etc/udev/rules.d/11-tiny.rules with the content : 
