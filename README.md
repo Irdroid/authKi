@@ -169,11 +169,11 @@ Verifies an ECDSA signature using the device. You specify the data (which will b
 ```bash
 eclet offline-verify-sign -f ChangeLog --signature C650D1A30194AD68F60F40C321FB084F6177BEDAC74D0F0C276ED35B00249AC8CF3E96FB7AB14AA48223FBA2E5DD9BCAE232BF963755C42F8FD9BD77FC145D41 --public-key 049B4A517704E16F3C99C6973E29F882EAF840DCD125C725C9552148A74349EB77BECB37AA2DB8056BAF0E236F6DCFEC2C5A9A0F23CEFD8A9DC1F4693718E725D2
 ```
-### 10. There are other examples in the cryptoauthlib directory for other functionalities such as AES128 enclode/decode, SHA-256 tests and examples and more. 
+#### 10. There are other examples in the cryptoauthlib directory for other functionalities such as AES128 enclode/decode, SHA-256 tests and examples and more. 
 
-### authKi unit's are available for purchase from Tindie - [Irdroid's Tindie Shop ](https://www.tindie.com/products/irdroid/authki-crypto-authentication-dongle/)
 
+
+### <p align="center">authKi unit's are available for purchase from Tindie - Click on the Tindie Logo below to see product</p>
 <p align="center" width="40%">
-<a href="https://d2ss6ovg47m0r5.cloudfront.net/images/tindie-logo@2x.png"> 
-<p align="center" width="40%">
-<bold>Purchase</bold> at Tindie
+<a href="https://www.tindie.com/products/irdroid/authki-crypto-authentication-dongle/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/images/tindie-logo@2x.png" alt="authKi ot Tindie"></a>
+</p>
