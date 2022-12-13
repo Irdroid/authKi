@@ -177,3 +177,5 @@ eclet offline-verify-sign -f ChangeLog --signature C650D1A30194AD68F60F40C321FB0
 <p align="center" width="30%">
 <a href="https://www.tindie.com/products/irdroid/authki-crypto-authentication-dongle/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/images/tindie-logo@2x.png" width="15%" alt="authKi ot Tindie"></a>
 </p>
+
+The authKi repository and and the authKi website were pushed to GitHub, by using the Irdroid's authKi ECDSA Keypair
