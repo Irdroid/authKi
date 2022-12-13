@@ -173,7 +173,7 @@ eclet offline-verify-sign -f ChangeLog --signature C650D1A30194AD68F60F40C321FB0
 
 
 
-### <p align="center">authKi unit's are available for purchase from Tindie - Click on the Tindie Logo below to see product
+### authKi unit's are available for purchase from Tindie - Click on the Tindie Logo below to see product details and pricing
 <p align="center" width="40%">
 <a href="https://www.tindie.com/products/irdroid/authki-crypto-authentication-dongle/"><img src="https://d2ss6ovg47m0r5.cloudfront.net/images/tindie-logo@2x.png" alt="authKi ot Tindie"></a>
 </p>
