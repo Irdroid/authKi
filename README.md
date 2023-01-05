@@ -3,7 +3,7 @@
     <img width="55%" src="https://raw.githubusercontent.com/Irdroid/authKi/main/Hardware/Pictures/auth_ki_site.png"> 
 </p>
 
-Irdroid authKi is a Open Source crypto Authentication USB Dongle, with built-in hardware support for Asymmetric Sign, Verify, Key Agreement for ECDSA - Elliptic curve digital signature algorithm, ECDH - Elliptic Curve Diffie-Hellman and NIST Standard P256 Elliptic Curve Support,  thanks to the built-in Cryptographic Co-Processor with Secure Hardware-Based Key Storage - ATECC608B by Microchip.
+Irdroid authKi is a Open Source crypto Authentication USB Dongle (Open source Hardware ID - BG000091), with built-in hardware support for Asymmetric Sign, Verify, Key Agreement for ECDSA - Elliptic curve digital signature algorithm, ECDH - Elliptic Curve Diffie-Hellman and NIST Standard P256 Elliptic Curve Support,  thanks to the built-in Cryptographic Co-Processor with Secure Hardware-Based Key Storage - ATECC608B by Microchip.
 
 USB 2.0 Interface (and optional USB-C) to the host system with built-in drivers for GNU Linux. The authKi is targeted for use in GNU Linux, the ATECC608B crypto element inside the authKi can be accessed via libusb in MS Windows and Mac OS (Still work in progress). The device will show-up on the host system as a I2C sysfs entry, which is then used by the Microchip’s cryptoauthlib for communication with the authKi dongle.
 
